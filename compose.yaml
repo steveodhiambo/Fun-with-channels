@@ -1,0 +1,7 @@
+services:
+  fun-channels:
+    build: .
+    environment:
+      - FINNHUB_TOKEN=${FINNHUB_TOKEN}
+    volumes:
+      - .:/app/
