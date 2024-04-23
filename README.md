@@ -28,11 +28,5 @@ One thing to keep in mind is the concept of the window size.  The window size re
 - The sample code is fine to use as the data generator, and you probably don't need to add to it.
 - Start with just one crypto value like `BTC` or `ETH` and printing the output instead of storing it.
 
-## Bonus
-- Complete with 3 different cryptocurrencies.
-- Store the moving averages to storage like a file or a database of your choosing.
-- Write tests
-- Dockerize
-
 ## To run
 - docker compose up
